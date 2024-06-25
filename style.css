@@ -8,7 +8,7 @@ body {
     height: 100vh;
     overflow: hidden;
 }
-#allmedia{
+ #allmedia{
     display: none;
 }
 header {
@@ -194,7 +194,15 @@ footer {
 
 }
 
+@media (max-width: 2500px){
+     #allmedia{
+     display: none;
+}
+    
 @media (max-width: 1368px){
+     #allmedia{
+    display: none;
+}
     .hero-content {
         top: 58%;
         left: -5%;
