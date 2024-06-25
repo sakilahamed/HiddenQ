@@ -16,7 +16,9 @@ header {
     width: 100%;
     left: -100px;
 }
-
+#allmedia{
+    display: none;
+}
 .logo {
     font-size: 35px;
     font-weight: bold;
