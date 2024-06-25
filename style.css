@@ -6,8 +6,11 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    overflow: hidden;
 }
-
+#allmedia{
+    display: none;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -16,9 +19,7 @@ header {
     width: 100%;
     left: -100px;
 }
-#allmedia{
-    display: none;
-}
+
 .logo {
     font-size: 35px;
     font-weight: bold;
@@ -66,7 +67,6 @@ header {
     position: relative;
     top: 70%;
     left: -5%;
-
 }
 .hero-content h1 {
     font-size: 48px;
@@ -164,7 +164,6 @@ footer {
     height: 110px;
     background-color: white;
 }
-
 
 
 @media (max-width: 976px) {
@@ -346,12 +345,3 @@ footer {
 }
 
 }
-
-
-
-
-
-
-
-
-
