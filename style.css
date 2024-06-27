@@ -710,7 +710,7 @@ main.row{
     }
     .logo {
         font-size: 32px;
-        margin-left: 20%;
+        margin-left: 15%;
     }
 #media-query{
     position: absolute;
@@ -740,7 +740,7 @@ main.row{
 }
 #circle_design{
     position: absolute;
-    top: 59%;
+    top: 70%;
     left: 40%;
 }
 .media-line{
@@ -758,7 +758,7 @@ main.row{
 
 .edu{
     position: absolute;
-    top: 64%;
+    top: 75%;
     left: 28%;
 }
 .edu .edu1{
@@ -767,26 +767,22 @@ main.row{
 }
 .edu .certfi1{
     font-size: 25px;
-    margin-top: -40px;
 }
 .curved-line {
-    display: block;
-    margin: 0 auto;
+    display: none;
 }
-.curvline svg{
-    margin-top: -110px;
-    width: 270px;
-}
+
 /* end education section main header */
+
 
 
 /* Starting certfication and exprience section*/
 .container{
-	width: 100%;
+	width: 92%;
 	padding: 10px;
-    margin-left: 0px;
+    margin-left: 13px;
     position: relative;
-    top: 100%;
+    top: 110%;
 }
 main.row{
 	display: grid;
@@ -806,8 +802,8 @@ main.row{
 /* 2nd circule design */
 #circle_design-2n{
     position: absolute;
-    top: 240%;
-    left: 46%;
+    top: 293%;
+    left: 40%;
 }
 .circle{
     width: 20px;
@@ -818,7 +814,7 @@ main.row{
 .yt-container {
     position: absolute;
     text-align: center;
-    top: 248%;
+    top: 301%;
     left: 22%;
 }
 .main-text {
@@ -839,19 +835,6 @@ main.row{
     z-index: 1;
     margin-top: 3px;
 }
-
-/* Second Curvlline*/
-.curvline-2 {
-    display: block;
-    margin: 0 auto;
-}
-.curvline-2 svg{
-    margin-top: 162px;
-    width: 325px;
-    margin-left: -100px;
-}
-/* Second Curvlline*/
-
 .meduim-sec{
     position: relative;
     top: 140%;
@@ -877,22 +860,23 @@ main.row{
     top: 145%;
 }
 .main-heading-footer .big-text{
-    font-size: 4.5rem;
+    font-size: 3rem;
     position: absolute;
     left: 50%;
     z-index: 1;
     margin-top: 3px;
 }
 .main-heading-footer h1{
-    font-size: 35px;
+    font-size: 26px;
     color: rgba(255, 255, 0, 0.904);
-    margin-top: 36px;
+    margin-top: 22px;
 }
 /* Start of footer 3three dots */
 #circle_design-3n{
     position: absolute;
-    top: 346%;
-    left: 46%;
+    top: 400%;
+    left: 40%;
 }
 /* end of footer 3three dots */
+}
 
