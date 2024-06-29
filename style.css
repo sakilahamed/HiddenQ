@@ -729,8 +729,11 @@ main.row{
 }
 .buttons{
     margin-top: 40px;
-    margin-bottom: 20px;
 } 
+.circle-container {
+    display: flex;
+    gap: 20px; /* Space between circles */
+}
 .circle {
     display: none;
 }
@@ -796,13 +799,7 @@ main.row{
 
 /* 2nd circule design */
 #circle_design-2n{
-    position: absolute;
-    top: 312%;
-    left: 40%;
-}
-.circle{
-    width: 20px;
-    height: 20px;
+    display: none;
 }
 /* end of 2nd circule design */
 
@@ -810,19 +807,19 @@ main.row{
     position: relative;
     text-align: center;
     top: 122%;
-    left: -45px;
+    left: -70px;
 }
 .main-text {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: white;
     z-index: 2;
     position: relative;
 }
 .background-text {
-    font-size: 3.3rem;
+    font-size: 3.5rem;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.192);
     position: absolute;
     top: 0;
     left: 50%;
@@ -834,7 +831,7 @@ main.row{
     position: relative;
     top: 140%;
     left: 0%;
-    width: 100%;
+    width: auto;
 }
 .image-section{
     display: none;
@@ -852,7 +849,7 @@ main.row{
 .main-heading-footer{
     text-align: center;
     position: relative;
-    top: 145%;
+    top: 140%;
 }
 .main-heading-footer .big-text{
     font-size: 3rem;
@@ -868,4 +865,3 @@ main.row{
 }
 
 }
-
