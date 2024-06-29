@@ -689,7 +689,7 @@ main.row{
     .social-links {
         gap: 30px;
         margin-left: -38px;
-        margin-top: -27px;
+        margin-top: -22px;
     }
     .social-links a{
         font-size: 17px;
@@ -709,8 +709,8 @@ main.row{
         margin-top: 15px;
     }
     .logo {
-        font-size: 32px;
-        margin-left: 15%;
+        font-size: 28px;
+        margin-left: 10%;
     }
 #media-query{
     position: absolute;
@@ -719,7 +719,7 @@ main.row{
     margin-top: 20px;
 }
 .main_body h1{
-    font-size: 29px;
+    font-size: 23px;
 }
 .para p{
     font-size: 13px;
@@ -759,14 +759,15 @@ main.row{
 .edu{
     position: absolute;
     top: 75%;
-    left: 28%;
+    left: 22%;
 }
 .edu .edu1{
-    font-size: 40px;
+    font-size: 35px;
     color: #bababa;
+    margin-bottom: 30px;
 }
 .edu .certfi1{
-    font-size: 25px;
+    font-size: 20px;
 }
 .curved-line {
     display: none;
@@ -802,7 +803,7 @@ main.row{
 /* 2nd circule design */
 #circle_design-2n{
     position: absolute;
-    top: 293%;
+    top: 312%;
     left: 40%;
 }
 .circle{
@@ -811,21 +812,21 @@ main.row{
 }
 /* end of 2nd circule design */
 
-.yt-container {
-    position: absolute;
+.yet-sc {
+    position: relative;
     text-align: center;
-    top: 301%;
-    left: 22%;
+    top: 122%;
+    left: -45px;
 }
 .main-text {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: white;
     z-index: 2;
     position: relative;
 }
 .background-text {
-    font-size: 4.5rem;
+    font-size: 3.3rem;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.1);
     position: absolute;
@@ -838,8 +839,8 @@ main.row{
 .meduim-sec{
     position: relative;
     top: 140%;
-    left: 2%;
-    width: 90%;
+    left: 0%;
+    width: 100%;
 }
 .image-section{
     display: none;
@@ -848,7 +849,7 @@ main.row{
     margin-top: 0;
     color: #e74c3c;
     padding: 15px;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 10px;
 }
 
@@ -871,12 +872,6 @@ main.row{
     color: rgba(255, 255, 0, 0.904);
     margin-top: 22px;
 }
-/* Start of footer 3three dots */
-#circle_design-3n{
-    position: absolute;
-    top: 400%;
-    left: 40%;
-}
-/* end of footer 3three dots */
+
 }
 
