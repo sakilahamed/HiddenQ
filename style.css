@@ -743,6 +743,7 @@ main.row{
     position: absolute;
     top: 78%;
     left: 40%;
+    display: none
 }
 .media-line{
     position: absolute;
